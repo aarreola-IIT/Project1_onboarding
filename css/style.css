@@ -31,14 +31,14 @@ form {
 
 }
 input[type=text] {
-    padding: 12px 18p;
+    padding: 12px 18px;
     width: auto;
     height: auto;
     margin: auto;
     margin-right: 1em;
     padding: 6px;
     font-size: 12px;
-    
+
 }
 label{
         border: none;
