@@ -10,7 +10,9 @@ body {
     background-repeat: no-repeat;
      background-size: auto;
     background-position: center;
-    display:grid; 
+    display:grid;
+    background-image: url("../Background/fighting-games.jpg");
+    background-color: #cccccc; 
 }
 p, h1, ol, label, input, #content {
     text-align: center; /* Align form elements to the center */
