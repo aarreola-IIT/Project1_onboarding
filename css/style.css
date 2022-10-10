@@ -6,11 +6,13 @@ html, body {
 body {
     font-family: 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
-     background-size: auto;
+    background-size: auto;
     background-position: center;
     display:grid;
     background-image: url("../Background/fighting-game.jpg");
     background-color: #cccccc; 
+    align-items: center;
+
 }
 p, h1, ol, label, input, #content {
     text-align: center; /* Align form elements to the center */
