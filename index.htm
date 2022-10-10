@@ -3,22 +3,24 @@
 <head>
   <title>Polling sheet</title>
   <meta charset="utf-8"/>
-  <meta name="viewport"/>
-  <link rel="stylesheet" media="screen" href="css/style.css"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/style.css" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
 </head>
 <body>
   <main id="content">
     <form method="get" action="#null">
       <h1>Video Game Tournament</h1>
       <p>
-        Which video game should we have a tournament on!
+        Which video game should we have a tournament on!?
       </p>
+      <div className="disp">
       <ol>
         <li id="input-Super-Smash-Bros">
           <input type="checkbox" id="Super-Smash-Bros." name="Super-Smash-Bros" value="action"/>
           <label for="Super Smash Bros">Super Smash Bros.</label>
           </li>
-          <li id="Street-Fighter">
+          <li id="input-Street-Fighter">
             <input type="checkbox" id="Street-Fighter" name="Street-Fighter" value="action"/>
             <label for="Street-Fighter">Street Fighter</label>
         </li>
@@ -34,6 +36,7 @@
           <input type="submit" name="submit" id="submit" value="Click to submit"/>
         </li>
       </ol>
+      </div>
     </form>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

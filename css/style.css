@@ -39,6 +39,7 @@ label{
         cursor: pointer;
 
 }
+/*
 #Super-Smash-Bros {
     box-sizing: border-box;
     width: 10%;
@@ -51,6 +52,7 @@ label{
     box-sizing: border-box;
     width: 10%;
 }
+*/
 @media screen and (min-width: 480px){
     #container {
         float: left;
