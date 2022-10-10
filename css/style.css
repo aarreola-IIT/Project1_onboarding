@@ -2,8 +2,6 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-image: url("../Background/fighting-games.jpg");
-    background-color: #cccccc;
 }
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -11,7 +9,7 @@ body {
      background-size: auto;
     background-position: center;
     display:grid;
-    background-image: url("../Background/fighting-games.jpg");
+    background-image: url("../Background/fighting-game.jpg");
     background-color: #cccccc; 
 }
 p, h1, ol, label, input, #content {
@@ -19,14 +17,17 @@ p, h1, ol, label, input, #content {
     margin: 15px;
   }
 form {
-    display: flow-root;
+    background-color: black;
+    display: inline-block;
     height: auto;
     text-align: center;
     width: auto;
 
 }
 input[type=text] {
-    padding: 12px 18p
+    padding: 12px 18p;
+    width: auto;
+    height: auto;
 }
 label{
         border: none;
@@ -36,11 +37,19 @@ label{
         height: 40px;
         width: 240px;
         cursor: pointer;
+
 }
-@media screen and (min-width: 480px) {
-    label {
-        display: inline-block;
-    }
+#Super-Smash-Bros {
+    box-sizing: border-box;
+    width: 10%;
+}
+#Street-Fighter {
+    box-sizing: border-box;
+    width: 10%;
+}
+#Mario-Party {
+    box-sizing: border-box;
+    width: 10%;
 }
 @media screen and (min-width: 480px){
     #container {
@@ -49,15 +58,14 @@ label{
          margin: 3% auto 0 auto;
          width: 50%;
         }
-       
         .fontsize {
          font-size: 1em;
         }
-       
         input {
          width: 60%;
+         font-weight: bolder;
+
         }
-       
         #submit {
          width: 55%;
          font-size: 0.9em;
