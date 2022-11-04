@@ -82,7 +82,6 @@ div.form {
         float: left;
          clear: right;
          margin: 3% auto 0 auto;
-         width: 50%;
         }
         .fontsize {
          font-size: 1em;
@@ -93,7 +92,6 @@ div.form {
 
         }
         #submit {
-         width: 55%;
          font-size: 0.9em;
         }
 }
