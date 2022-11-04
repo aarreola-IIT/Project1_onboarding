@@ -1,3 +1,13 @@
+@font-face {
+	font-family: poor story;
+	src: url("https://fonts.google.com/specimen/Poor+Story");
+}
+
+@font-face {
+	font-family: poor story;
+	src: url("https://fonts.google.com/specimen/Poor+Story");
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -17,6 +27,7 @@ body {
 p, h1, ol, label, input, #content {
     text-align: center; /* Align form elements to the center */
     margin: 15px;
+    line-height: 1.5;
   }
 form {
     background-color: black;
@@ -27,6 +38,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     color: white;
+    line-height: 1.5;
 
 }
 input[type=checkbox] {
@@ -84,6 +96,11 @@ div.form {
          width: 55%;
          font-size: 0.9em;
         }
+}
+@media screen and (max-width: 480px){
+    #container {
+        background-size: auto;
+    }
 }
       
       
